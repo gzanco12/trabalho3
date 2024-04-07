@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <h1>Formulário de Cadastro</h1>
+
+  <form>
+    <label for="fname">Nome completo:</label><br>
+    <input type="text" id="fname" name="fname" placeholder="Informe o nome"><br>
+    <label for="lname">Email:</label><br>
+    <input type="text" id="lname" name="email" placeholder="Informe o email">
+  </form>
+  <form>
+    <label for="Telefone">Telefone:</label><br>
+    <input type="text" id="lname" name="tleefone" placeholder="Informe o Telefone">
+  </form>
+  <form>
+    <label for="contratotempo">Tempo de contrato:</label><br>
+    <input type="text" id="lname" name="contratotempo">
+  </form>
+
+  <form>
+    <label for="start">Data de nascimento:</label>
+    <input type="date" id="start" name="dn" value="aaaa-mm-dd"/>
+  </form>
+
+  <div data-role="main" class="ui-content">
+      <legend>Sexo:</legend>
+        <label for="male">Masculino</label>
+        <input type="radio" name="gender" id="male" value="male" checked>
+        <label for="female">Feminino</label>
+        <input type="radio" name="gender" id="female" value="female">
+  </fieldset>
+
+  <form>
+    <label for="interesses">Interesses:</label>
+    <div>
+      <input type="checkbox" id="interesses" name="interesses" value="interesses" />
+      <label for="interesses">Esportes</label>
+    </div>
+    <div>
+      <input type="checkbox" id="interesses" name="interesses" value="interesses" />
+      <label for="interesses">Cinema</label>
+    </div>
+    <div>
+      <input type="checkbox" id="interesses" name="interesses" value="interesses" />
+      <label for="interesses">Música</label>
+    </div>
+  </form>
+
+  <form>
+    <label for="estado">Informe o estado:</label>
+    <select id="estado" name="estado">
+      <option value="RS">RS</option>
+      <option value="SC">SC</option>
+      <option value="PR">PR</option>
+    </select>
+  </form>
+  
+  <label for="mensagem">Mensagem:</label>
+  <form>
+    <textarea name="message" rows="10" cols="30" placeholder="Digite uma mensagem">
+    </textarea>
+  </form>
+
+  <input type="submit" value="Enviar">
+  <input type="reset" value="Limpar">
+
+</body>
+</html>
